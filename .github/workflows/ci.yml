@@ -26,7 +26,7 @@ jobs:
           mkdir -p ~/.ssh
           cp known_hosts ~/.ssh/known_hosts
           ssh -t -i keyfile ubuntu@ec2-3-68-90-164.eu-central-1.compute.amazonaws.com "
-          cd ~/zealth
+          cd ~/zealth-landing-page
           git pull origin main
           bash deploy.sh
           "
