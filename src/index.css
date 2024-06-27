@@ -33,11 +33,6 @@ body {
     #a9add0,
     #ffabc2
   );
-  background-attachment: fixed;
-  background-size: cover;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
 }
 
 .custom-gradient {
